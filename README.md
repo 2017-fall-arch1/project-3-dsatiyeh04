@@ -1,19 +1,26 @@
 # Project 3: LCD Game
 ## Introduction
 
-Continuing your effort to help ACME Solutions provide Christmas toys, 
-your task is now to develop a game for the LCD screen.  You should 
-utilize the knowledge you havegained working with the buttons and 
-buzzer.  In addition, a series of libraries have been found to assist
-you in creating your game.
+Continuing our effort to help ACME Solutions provide Christmas toys, 
+my  task is now to develop a game for the LCD screen.  I
+utilize the knowledge I havegained working with the buttons and 
+buzzer.  In addition, a series of libraries have been found to assist me in creating your game.
 
-Students can propose alternate projects that demonstrate
-similar skills.  These proposals must approved by the course
-instructor in writing (e.g. email) at least two weeks before the
-project due date. 
+I created a game of ping pon on the MSP430, I used Fraudenthals code form the shapemotion.c demo and changed the code to creae my game. Freuds code had the frame for the ping pong game but i added the layout for the paddles from the rectnagle layout demo and added a ball layout.
+
+To run the program you need to make all from the original file in the repository
+$make all
+
+and go to shapemotion file and call
+$make clean
+
+$make load
+
+Switches S1 (UP) S2(DOWN) are player one and S3(UP) S4(DOWN) are player 2. Once a plyer gets 9 points, player wins!
+
 
 ## Requirements
-Your game should meet the following minimum criteria:
+Game should meet the following minimum criteria:
 
 - dynamically render graphical elements that move
 -- including one original algorithmically rendered graphical element 
